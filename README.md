@@ -1,84 +1,162 @@
-# �️ FraudGuard AI: ETL + RAG + ML Fraud Detection
+<div align="center">
 
-**Advanced Healthcare Fraud Detection System powered by Generative AI.**  
-Transforming raw claims data into actionable intelligence using ETL pipelines, Machine Learning, and Retrieval-Augmented Generation (RAG).
+# 🛡️ FraudGuard AI
+### Intelligent Healthcare Fraud Detection
+#### Powered by Generative AI, RAG, and Machine Learning
 
-![FraudGuard AI Banner](https://img.shields.io/badge/AI--Powered-Fraud%20Detection-blueviolet?style=for-the-badge)  
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&style=flat-square)
-![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red?logo=streamlit&style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-RAG-green?logo=langchain&style=flat-square)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-LLM-orange?logo=google&style=flat-square)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-blue?logo=scikit-learn&style=flat-square)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-<br>
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtY255cGh3Ym9qZzJ6dG9oZnB4Ym9qZzJ6dG9oZnB4Ym9qv2ZweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l3vR85PnGgm10e8pm/giphy.gif" alt="AI Analytics Animation" width="600">
+</p>
 
-## 🚀 Features
+### Transform raw claims data into actionable intelligence.
 
-- �️‍♂️ **Hybrid Fraud Detection:** Combines rule-based logic with ML models to flag suspicious claims.
-- 💬 **AI Fraud Investigator:** Chat naturally with your data using Google Gemini-powered agents ("Show me suspicious cardiology claims").
-- 🧠 **Semantic Search (RAG):** Find relevant historical fraud cases by meaning, not just keywords (e.g., "duplicate billing patterns").
-- � **Interactive Dashboard:** Real-time analytics with Plotly and Streamlit.
-- � **Automated ETL Pipeline:** Seamlessly processes raw CSV data (`claims.csv`, `providers.csv`) into analysis-ready formats.
+[View Demo](#-interface) • [Report Bug](https://github.com/Saurav12-7/Fraud-Detection/issues) • [Request Feature](https://github.com/Saurav12-7/Fraud-Detection/issues)
 
-## 🛠️ Built With
+</div>
 
-- **Framework**: [Streamlit](https://streamlit.io/)
-- **LLM & Agents**: [LangChain](https://www.langchain.com/), [Google Gemini API](https://ai.google.dev/)
-- **Machine Learning**: [Scikit-learn](https://scikit-learn.org/) (Isolation Forest / Random Forest)
-- **Vector Search**: [FAISS](https://github.com/facebookresearch/faiss), [Sentence Transformers](https://www.sbert.net/)
-- **Data Engineering**: Pandas, NumPy
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Tech Stack](#-%EF%B8%8F-tech-stack)
+- [Interface](#-interface)
+- [Getting Started](#-getting-started)
+- [Usage](#-usage)
+- [Contributing](#-contributing)
+- [Acknowledgements](#-acknowledgements)
+
+---
+
+## � Overview
+
+**FraudGuard AI** is a state-of-the-art fraud detection system designed for the healthcare industry. By combining traditional **Rule-Based Logic** with advanced **Machine Learning** and **Retrieval-Augmented Generation (RAG)**, it offers a comprehensive shield against billing anomalies.
+
+Unlike standard detectors, FraudGuard understands *context*. It allows investigators to chat with their data using natural language and find semantic similarities across thousands of historical claims.
+
+---
+
+## 🚀 Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| **🕵️‍♂️ Hybrid Detection** | Dual-layer analysis using rule-based algorithms and ML models (Isolation Forest/Random Forest). |
+| **💬 AI Investigator** | Chat with your data! Ask questions like *"Show me suspicious cardiology claims"* using **Google Gemini**. |
+| **🧠 Semantic Search** | RAG-powered search to find fraud patterns by meaning, not just exact keywords (e.g., *"upcoding patterns"*). |
+| **📊 Smart Dashboard** | Real-time interactive analytics with **Plotly** and **Streamlit** for instant visual insights. |
+| **🔄 Auto-ETL** | Seamless pipeline to process raw `claims.csv` & `providers.csv` into analysis-ready datasets. |
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Component | Technology |
+| :---: | :--- |
+| **Frontend** | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white) |
+| **LLM & Agents** | ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white) |
+| **Machine Learning** | ![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
+| **Vector Search** | ![FAISS](https://img.shields.io/badge/FAISS-00589B?style=flat-square) |
+| **Data Processing** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) |
+
+</div>
+
+---
 
 ## 📸 Interface
 
-> *Visualize your fraud detection workflow with a modern, dark-themed UI.*
+> Experience a modern, dark-themed UI designed for clarity and speed.
 
-*(Run the app to see the interactive dashboard)*
+*(Place your dashboard screenshot here)*
+`![Dashboard Screenshot](assets/dashboard_preview.png)`
+
+---
 
 ## 🚚 Getting Started
 
 ### Prerequisites
 
-- Python 3.8+
-- [Google Gemini API Key](https://aistudio.google.com/)
+*   **Python 3.8+**
+*   **Google Gemini API Key** (Get one [here](https://aistudio.google.com/))
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-ur>
-   cd Fraud_Detection
-   ```
+1.  **Clone the Repository**
+    ```bash
+    git clone https://github.com/Saurav12-7/Fraud-Detection.git
+    cd Fraud-Detection
+    ```
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+2.  **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### Run the App
+3.  **Run the Application**
+    ```bash
+    streamlit run Frontend/interface_ultimate.py
+    ```
 
-```bash
-streamlit run Frontend/interface_ultimate.py
-```
+4.  **Access the Dashboard**
+    Open your browser to `http://localhost:8501`.
 
-- The application will open in your browser at `http://localhost:8501`.
+---
 
-## 🎯 Usage
+## 🎯 Usage Guide
 
-1. **Enter API Key:** Input your Google Gemini API key in the sidebar to enable AI features.
-2. **Dashboard Overview:** View top-level metrics, fraud rates by specialty, and recent alerts.
-3. **AI Chat:** Ask questions like *"Identify providers with high fraud risk assessments"* to get instant answers.
-4. **Semantic Search:** Use the RAG tab to find similar past cases (e.g., *"upcoding in radiology"*).
+### 1. 🔑 Authentication
+Enter your **Google Gemini API Key** in the sidebar. This unlocks the AI Chat and Semantic Search capabilities.
+
+### 2. 📊 Dashboard Analysis
+- **Top Metrics**: View total claims, fraud rates, and financial impact at a glance.
+- **Charts**: Interactive graphs showing fraud distribution by specialty and risk score.
+
+### 3. 💬 AI Interaction
+- Go to the **AI Chat** tab.
+- Type prompts like:
+    > "Identify the top 5 providers with the highest risk scores."
+    > "Plot the trend of fraud cases over the last 30 days."
+
+### 4. 🔍 Semantic Investigation
+- Navigate to **Semantic Search**.
+- Search for concepts rather than exact matches:
+    > "Duplicate billing for same patient on same day"
+
+---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to check the [issues page](https://github.com/your-username/repo-name/issues).
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
 
 ## 👨‍💻 Developer
 
+<div align="center">
+
 **Kumar Saurav**
 
-## 🙏 Acknowledgements
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Saurav12-7)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kumar-saurav)
 
-- [Streamlit Community](https://discuss.streamlit.io/)
-- [LangChain Documentation](https://python.langchain.com/)
-- [Google AI Studio](https://aistudio.google.com/)
+</div>
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ using Python and Streamlit.</sub>
+</div>
