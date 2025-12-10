@@ -4,11 +4,14 @@
 ### Intelligent Healthcare Fraud Detection
 #### Powered by Generative AI, RAG, and Machine Learning
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
-[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)](https://www.langchain.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+<!-- Dynamic GitHub Badges -->
+[![GitHub stars](https://img.shields.io/github/stars/Saurav12-7/Fraud-Detection?style=social)](https://github.com/Saurav12-7/Fraud-Detection/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Saurav12-7/Fraud-Detection?style=social)](https://github.com/Saurav12-7/Fraud-Detection/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Saurav12-7/Fraud-Detection?style=flat-square)](https://github.com/Saurav12-7/Fraud-Detection/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Saurav12-7/Fraud-Detection?style=flat-square)](https://github.com/Saurav12-7/Fraud-Detection/commits/main)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+
+<br>
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtY255cGh3Ym9qZzJ6dG9oZnB4Ym9qZzJ6dG9oZnB4Ym9qv2ZweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l3vR85PnGgm10e8pm/giphy.gif" alt="AI Analytics Animation" width="600">
@@ -35,7 +38,7 @@
 
 ---
 
-## � Overview
+## 📖 Overview
 
 **FraudGuard AI** is a state-of-the-art fraud detection system designed for the healthcare industry. By combining traditional **Rule-Based Logic** with advanced **Machine Learning** and **Retrieval-Augmented Generation (RAG)**, it offers a comprehensive shield against billing anomalies.
 
@@ -49,7 +52,7 @@ Unlike standard detectors, FraudGuard understands *context*. It allows investiga
 | :--- | :--- |
 | **🕵️‍♂️ Hybrid Detection** | Dual-layer analysis using rule-based algorithms and ML models (Isolation Forest/Random Forest). |
 | **💬 AI Investigator** | Chat with your data! Ask questions like *"Show me suspicious cardiology claims"* using **Google Gemini**. |
-| **🧠 Semantic Search** | RAG-powered search to find fraud patterns by meaning, not just exact keywords (e.g., *"upcoding patterns"*). |
+| **🧠 Semantic Search** | RAG-powered search to find fraud patterns by meaning, not just keywords (e.g., *"upcoding patterns"*). |
 | **📊 Smart Dashboard** | Real-time interactive analytics with **Plotly** and **Streamlit** for instant visual insights. |
 | **🔄 Auto-ETL** | Seamless pipeline to process raw `claims.csv` & `providers.csv` into analysis-ready datasets. |
 
@@ -75,8 +78,9 @@ Unlike standard detectors, FraudGuard understands *context*. It allows investiga
 
 > Experience a modern, dark-themed UI designed for clarity and speed.
 
-*(Place your dashboard screenshot here)*
-`![Dashboard Screenshot](assets/dashboard_preview.png)`
+| **Advanced Analytics** | **Claims Timeline** |
+| :---: | :---: |
+| ![Analytics Dashboard](assets/dashboard_analytics.png) | ![Claims Over Time](assets/dashboard_claims.png) |
 
 ---
 
