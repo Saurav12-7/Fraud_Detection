@@ -55,6 +55,7 @@ Unlike standard detectors, FraudGuard understands *context*. It allows investiga
 | **🧠 Semantic Search** | RAG-powered search to find fraud patterns by meaning, not just keywords (e.g., *"upcoding patterns"*). |
 | **📊 Interactive Analytics** | **Dynamic, data-driven** dashboards that visualize fraud drivers, provider risk distribution, and temporal trends in real-time. |
 | **🔄 Auto-ETL** | Seamless pipeline to process raw `claims.csv` & `providers.csv` into analysis-ready datasets. |
+| **📤 Data Management** | **Upload & Process** your own datasets directly from the UI to trigger the ETL pipeline and rebuild the RAG index. |
 
 ---
 
@@ -136,6 +137,11 @@ Enter your **Google Gemini API Key** in the sidebar. This unlocks the AI Chat an
 - Navigate to **Semantic Search**.
 - Search for concepts rather than exact matches:
     > "Duplicate billing for same patient on same day"
+
+### 5. 📤 Process New Data
+- Navigate to the **Data Management** section in the sidebar.
+- Upload your fresh `claims.csv` and `providers.csv` files.
+- Click **🚀 Process New Data** to trigger the ETL, rebuild the index, and refresh the dashboard.
 
 ---
 

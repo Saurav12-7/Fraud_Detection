@@ -1,101 +1,101 @@
-provider_id,name,specialty,location,years_experience,license_number,hospital_affiliation,phone,email,avg_claims_per_month,fraud_risk_score,is_high_risk
-PROV0001,Allison Hill,gastroenterology,Houston,2,LIC46048,Taylor Inc Medical Center,+1-581-896-0013x38908,allison.hill@taylorincmedicalcenterhospital.com,18,0.295,False
-PROV0002,Kevin Pacheco,gastroenterology,Seattle,6,LIC87397,Blake and Sons Medical Center,001-765-642-3511x615,kevin.pacheco@blakeandsonsmedicalcenterhospital.com,11,0.037,False
-PROV0003,Monica Herrera,oncology,Indianapolis,2,LIC83563,Miller-Carter Medical Center,+1-695-993-1034x1316,monica.herrera@miller-cartermedicalcenterhospital.com,44,0.168,False
-PROV0004,Holly Wood,general_medicine,Denver,18,LIC10851,Santiago Ltd Medical Center,+1-519-228-3276x48350,holly.wood@santiagoltdmedicalcenterhospital.com,20,0.279,False
-PROV0005,Jennifer Jones,orthopedics,Dallas,10,LIC38221,"Walter, Edwards and Rios Medical Center",(772)542-3884x9696,"jennifer.jones@walter,edwardsandriosmedicalcenterhospital.com",31,0.041,False
-PROV0006,Brenda Snyder PhD,general_medicine,Houston,23,LIC55082,Hernandez and Sons Medical Center,+1-669-716-6978x48018,brenda.snyder.phd@hernandezandsonsmedicalcenterhospital.com,12,0.292,False
-PROV0007,Jeffrey Chavez,neurology,Houston,25,LIC20328,"Liu, Baker and Mason Medical Center",(481)248-9325,"jeffrey.chavez@liu,bakerandmasonmedicalcenterhospital.com",50,0.247,False
-PROV0008,Katherine Rodriguez,orthopedics,Denver,13,LIC19116,Koch-Decker Medical Center,430-639-1171x8227,katherine.rodriguez@koch-deckermedicalcenterhospital.com,79,0.871,True
-PROV0009,Lisa Brandt,cardiology,San Diego,7,LIC59823,"Campos, Vaughn and Marquez Medical Center",(557)587-1331x5098,"lisa.brandt@campos,vaughnandmarquezmedicalcenterhospital.com",50,0.334,False
-PROV0010,Michael Brown,oncology,Jacksonville,23,LIC37460,Whitehead LLC Medical Center,983-547-3829,michael.brown@whiteheadllcmedicalcenterhospital.com,14,0.244,False
-PROV0011,Rhonda Lee,oncology,Seattle,16,LIC31417,Hopkins LLC Medical Center,(467)801-0651x33387,rhonda.lee@hopkinsllcmedicalcenterhospital.com,27,0.396,False
-PROV0012,Joel Baxter,gastroenterology,Seattle,15,LIC99733,Ramos PLC Medical Center,908-501-3267,joel.baxter@ramosplcmedicalcenterhospital.com,13,0.092,False
-PROV0013,Stephanie Martin,cardiology,Austin,26,LIC45093,Galloway LLC Medical Center,246.787.2343x098,stephanie.martin@gallowayllcmedicalcenterhospital.com,122,0.907,True
-PROV0014,Kevin Shaw,orthopedics,San Antonio,32,LIC61856,"Moore, Yu and Miller Medical Center",(219)313-6193,"kevin.shaw@moore,yuandmillermedicalcenterhospital.com",39,0.057,False
-PROV0015,Kevin Mills,oncology,San Diego,35,LIC44438,Harris-Moran Medical Center,946.324.7510,kevin.mills@harris-moranmedicalcenterhospital.com,37,0.359,False
-PROV0016,Daniel Baker,general_medicine,Jacksonville,15,LIC28131,Ibarra-Suarez Medical Center,(442)678-4980x841,daniel.baker@ibarra-suarezmedicalcenterhospital.com,15,0.302,False
-PROV0017,Brian Tran,cardiology,Phoenix,11,LIC99192,Campbell-Clark Medical Center,634-487-4016x40052,brian.tran@campbell-clarkmedicalcenterhospital.com,14,0.154,False
-PROV0018,Kristen Patterson,neurology,Charlotte,34,LIC42953,Rodriguez Ltd Medical Center,(280)659-8262,kristen.patterson@rodriguezltdmedicalcenterhospital.com,10,0.272,False
-PROV0019,Timothy Stanton,cardiology,Seattle,18,LIC94012,Nolan and Sons Medical Center,+1-731-858-6923x22602,timothy.stanton@nolanandsonsmedicalcenterhospital.com,28,0.174,False
-PROV0020,Sharon Cochran,general_medicine,New York,17,LIC75612,Moore-Haynes Medical Center,(707)633-7543x3036,sharon.cochran@moore-haynesmedicalcenterhospital.com,42,0.365,False
-PROV0021,Tracy Ramirez,gastroenterology,San Jose,33,LIC89818,"Hicks, Frazier and Anthony Medical Center",301-842-9401x96556,"tracy.ramirez@hicks,frazierandanthonymedicalcenterhospital.com",33,0.305,False
-PROV0022,Cheryl Williams,neurology,Indianapolis,1,LIC88504,Smith-Frost Medical Center,+1-635-661-5951,cheryl.williams@smith-frostmedicalcenterhospital.com,11,0.045,False
-PROV0023,Erika Terry,orthopedics,San Jose,16,LIC17592,"Martinez, Fisher and Bentley Medical Center",+1-729-994-6804x43699,"erika.terry@martinez,fisherandbentleymedicalcenterhospital.com",46,0.379,False
-PROV0024,Michael Dixon,cardiology,San Francisco,5,LIC79822,"Jackson, Miller and Robertson Medical Center",+1-395-913-4332x0037,"michael.dixon@jackson,millerandrobertsonmedicalcenterhospital.com",18,0.264,False
-PROV0025,Mark Lee,neurology,Philadelphia,17,LIC79163,"Cruz, Ross and Hernandez Medical Center",001-901-463-2870x831,"mark.lee@cruz,rossandhernandezmedicalcenterhospital.com",37,0.386,False
-PROV0026,Mary Travis,neurology,San Antonio,20,LIC62296,"Stewart, Fischer and Ramos Medical Center",001-586-687-2774x3487,"mary.travis@stewart,fischerandramosmedicalcenterhospital.com",33,0.175,False
-PROV0027,Micheal Young,neurology,Charlotte,8,LIC42493,Flores-Fernandez Medical Center,(723)962-3166,micheal.young@flores-fernandezmedicalcenterhospital.com,31,0.008,False
-PROV0028,Daniel Fisher,neurology,San Diego,15,LIC10942,"Shah, Smith and Gilmore Medical Center",001-567-905-4668,"daniel.fisher@shah,smithandgilmoremedicalcenterhospital.com",130,0.621,True
-PROV0029,Jeffrey Johnson,cardiology,Los Angeles,22,LIC19287,Caldwell-Yates Medical Center,001-427-929-8069x9016,jeffrey.johnson@caldwell-yatesmedicalcenterhospital.com,27,0.268,False
-PROV0030,David Murphy,oncology,Seattle,9,LIC84847,Murphy-Juarez Medical Center,(246)541-7080x5310,david.murphy@murphy-juarezmedicalcenterhospital.com,25,0.314,False
-PROV0031,Alex Hernandez,general_medicine,San Antonio,7,LIC22704,Wells Inc Medical Center,001-437-645-2991,alex.hernandez@wellsincmedicalcenterhospital.com,32,0.169,False
-PROV0032,Alexander Collins,general_medicine,Los Angeles,7,LIC17944,"Odonnell, Brooks and David Medical Center",219.731.4919,"alexander.collins@odonnell,brooksanddavidmedicalcenterhospital.com",31,0.32,False
-PROV0033,Mary Jones,cardiology,San Diego,13,LIC34931,"Peterson, Atkinson and Short Medical Center",965-972-6284,"mary.jones@peterson,atkinsonandshortmedicalcenterhospital.com",18,0.169,False
-PROV0034,Nicholas Adams,orthopedics,Charlotte,16,LIC19880,Rivas Inc Medical Center,973-579-9650x752,nicholas.adams@rivasincmedicalcenterhospital.com,45,0.039,False
-PROV0035,David Ramirez,gastroenterology,Seattle,1,LIC22224,"Haynes, Hill and Smith Medical Center",913.267.8377,"david.ramirez@haynes,hillandsmithmedicalcenterhospital.com",25,0.067,False
-PROV0036,Daniel Holt,general_medicine,San Francisco,14,LIC62565,Beck-Wood Medical Center,+1-685-668-5574,daniel.holt@beck-woodmedicalcenterhospital.com,20,0.152,False
-PROV0037,Nathan Stewart,general_medicine,Dallas,30,LIC47388,"Herrera, Gill and Lopez Medical Center",674.598.9413,"nathan.stewart@herrera,gillandlopezmedicalcenterhospital.com",45,0.265,False
-PROV0038,Eric Erickson,general_medicine,Phoenix,13,LIC48890,Hill Inc Medical Center,+1-942-971-0947,eric.erickson@hillincmedicalcenterhospital.com,13,0.232,False
-PROV0039,Vincent King,neurology,Los Angeles,21,LIC17492,Wilson-Jones Medical Center,519.802.2941x3186,vincent.king@wilson-jonesmedicalcenterhospital.com,111,0.776,True
-PROV0040,Jeremy Dalton,neurology,Philadelphia,4,LIC76562,Torres-Oliver Medical Center,+1-213-834-1232x812,jeremy.dalton@torres-olivermedicalcenterhospital.com,73,0.624,True
-PROV0041,Kirk Carter,cardiology,San Diego,26,LIC25713,Roberts LLC Medical Center,001-671-434-9361x832,kirk.carter@robertsllcmedicalcenterhospital.com,46,0.098,False
-PROV0042,Christopher Parker,neurology,Los Angeles,6,LIC64948,"Holloway, Morse and Gonzales Medical Center",746.648.8771x906,"christopher.parker@holloway,morseandgonzalesmedicalcenterhospital.com",46,0.209,False
-PROV0043,Darryl Craig,orthopedics,San Antonio,21,LIC41285,"Matthews, Smith and Hubbard Medical Center",390-927-8742x967,"darryl.craig@matthews,smithandhubbardmedicalcenterhospital.com",18,0.269,False
-PROV0044,Gary Santiago,orthopedics,Charlotte,21,LIC19508,Rivera Ltd Medical Center,246.980.7154x5168,gary.santiago@riveraltdmedicalcenterhospital.com,129,0.949,True
-PROV0045,Cody Cox,cardiology,Chicago,35,LIC37938,Garrett-Wolf Medical Center,548.424.7710,cody.cox@garrett-wolfmedicalcenterhospital.com,18,0.373,False
-PROV0046,Adam Russell,cardiology,San Diego,24,LIC47353,Gay Inc Medical Center,412.874.8467x737,adam.russell@gayincmedicalcenterhospital.com,44,0.281,False
-PROV0047,Kyle Francis,neurology,Indianapolis,1,LIC97538,Shields LLC Medical Center,001-965-784-0449x97278,kyle.francis@shieldsllcmedicalcenterhospital.com,29,0.373,False
-PROV0048,Phillip Bennett,cardiology,Phoenix,17,LIC25129,Kane-Pollard Medical Center,896.436.0576,phillip.bennett@kane-pollardmedicalcenterhospital.com,45,0.062,False
-PROV0049,Andrew Shaw MD,orthopedics,Boston,14,LIC54942,Sawyer Group Medical Center,687-702-6217,andrew.shaw.md@sawyergroupmedicalcenterhospital.com,50,0.341,False
-PROV0050,Jennifer Miller,neurology,San Francisco,17,LIC16658,Phelps-Villarreal Medical Center,(357)980-9134x3161,jennifer.miller@phelps-villarrealmedicalcenterhospital.com,104,0.89,True
-PROV0051,Elijah Johnson,cardiology,New York,22,LIC27146,Flynn-Carter Medical Center,(862)538-6922x219,elijah.johnson@flynn-cartermedicalcenterhospital.com,26,0.065,False
-PROV0052,Mr. David Little MD,general_medicine,Seattle,28,LIC83519,"Smith, Ballard and Santana Medical Center",+1-982-317-5946x47436,"mr..david.little.md@smith,ballardandsantanamedicalcenterhospital.com",59,0.931,True
-PROV0053,Kenneth Andrews,gastroenterology,Phoenix,35,LIC14722,"Phillips, Spence and Barrett Medical Center",609-409-7439x533,"kenneth.andrews@phillips,spenceandbarrettmedicalcenterhospital.com",47,0.221,False
-PROV0054,Stephanie Lucas,general_medicine,Phoenix,3,LIC50404,Kramer-Johnson Medical Center,(621)445-6232x858,stephanie.lucas@kramer-johnsonmedicalcenterhospital.com,12,0.36,False
-PROV0055,Roger Olson,oncology,San Diego,7,LIC56357,Francis-Morgan Medical Center,871-223-6851,roger.olson@francis-morganmedicalcenterhospital.com,36,0.39,False
-PROV0056,Caleb Richardson,gastroenterology,Phoenix,16,LIC31299,"Chambers, Richards and Carson Medical Center",(613)870-9859x317,"caleb.richardson@chambers,richardsandcarsonmedicalcenterhospital.com",21,0.353,False
-PROV0057,Andrew Johnson,cardiology,Philadelphia,22,LIC63964,Wilson-Young Medical Center,+1-826-375-8692,andrew.johnson@wilson-youngmedicalcenterhospital.com,25,0.107,False
-PROV0058,Lisa Crosby,gastroenterology,Houston,25,LIC15075,Johnson-Wood Medical Center,373.951.5850x643,lisa.crosby@johnson-woodmedicalcenterhospital.com,24,0.08,False
-PROV0059,Daniel Fowler,general_medicine,Jacksonville,20,LIC39831,Williams LLC Medical Center,529.731.8393,daniel.fowler@williamsllcmedicalcenterhospital.com,22,0.159,False
-PROV0060,Rachel Carlson,orthopedics,Chicago,18,LIC56025,Garrison-Thomas Medical Center,(584)721-0205,rachel.carlson@garrison-thomasmedicalcenterhospital.com,35,0.272,False
-PROV0061,Derek Martinez,neurology,Austin,2,LIC25118,Fox-Reese Medical Center,975.289.1783x9084,derek.martinez@fox-reesemedicalcenterhospital.com,26,0.071,False
-PROV0062,John Morales,orthopedics,Los Angeles,7,LIC88193,"Rodriguez, Joseph and Wallace Medical Center",759-821-2499,"john.morales@rodriguez,josephandwallacemedicalcenterhospital.com",30,0.175,False
-PROV0063,Kerry Chavez DDS,neurology,Houston,25,LIC85574,Mcguire Inc Medical Center,+1-883-767-3657x6615,kerry.chavez.dds@mcguireincmedicalcenterhospital.com,12,0.284,False
-PROV0064,Jacqueline Hernandez,cardiology,Indianapolis,35,LIC97900,Jones-Decker Medical Center,761-352-8098,jacqueline.hernandez@jones-deckermedicalcenterhospital.com,37,0.028,False
-PROV0065,Shane Pugh,gastroenterology,Austin,21,LIC96951,Parrish-Griffith Medical Center,794-351-9832x7315,shane.pugh@parrish-griffithmedicalcenterhospital.com,29,0.203,False
-PROV0066,Laura Aguirre,gastroenterology,Columbus,21,LIC62743,"Villegas, Cardenas and Austin Medical Center",+1-480-894-0244x5502,"laura.aguirre@villegas,cardenasandaustinmedicalcenterhospital.com",45,0.051,False
-PROV0067,Patrick Bonilla,general_medicine,Fort Worth,12,LIC90676,Reese and Sons Medical Center,(467)252-5459x9102,patrick.bonilla@reeseandsonsmedicalcenterhospital.com,35,0.219,False
-PROV0068,Denise Stanley,cardiology,San Jose,19,LIC37549,Lawson-Perry Medical Center,681.256.1497,denise.stanley@lawson-perrymedicalcenterhospital.com,47,0.243,False
-PROV0069,William Brown,orthopedics,Charlotte,29,LIC67954,Turner and Sons Medical Center,001-724-345-1076x22683,william.brown@turnerandsonsmedicalcenterhospital.com,42,0.189,False
-PROV0070,Patrick Graham,gastroenterology,Philadelphia,6,LIC47196,Morse-Atkins Medical Center,001-769-466-4160,patrick.graham@morse-atkinsmedicalcenterhospital.com,50,0.248,False
-PROV0071,Lisa Collier,cardiology,San Diego,20,LIC39444,Davis-Richard Medical Center,569.768.1645,lisa.collier@davis-richardmedicalcenterhospital.com,19,0.01,False
-PROV0072,Angela Schultz,oncology,San Francisco,5,LIC69692,"Hicks, Bullock and Bailey Medical Center",001-923-912-4329x2127,"angela.schultz@hicks,bullockandbaileymedicalcenterhospital.com",50,0.23,False
-PROV0073,Sonia Day,gastroenterology,Fort Worth,32,LIC62383,"Morris, Maddox and Stewart Medical Center",917.974.4905x814,"sonia.day@morris,maddoxandstewartmedicalcenterhospital.com",10,0.357,False
-PROV0074,Jacob Mitchell,cardiology,Columbus,15,LIC33053,"Lin, Wyatt and Gilbert Medical Center",267.998.0793x59782,"jacob.mitchell@lin,wyattandgilbertmedicalcenterhospital.com",43,0.186,False
-PROV0075,Steven Cooper,neurology,San Diego,8,LIC69829,"Miller, Lucas and Williams Medical Center",001-777-288-9255x466,"steven.cooper@miller,lucasandwilliamsmedicalcenterhospital.com",39,0.267,False
-PROV0076,Maria Jones,neurology,Boston,21,LIC68008,Grant Group Medical Center,349-625-1925x4629,maria.jones@grantgroupmedicalcenterhospital.com,42,0.171,False
-PROV0077,Maria Murphy,neurology,Charlotte,11,LIC72216,Santiago Ltd Medical Center,+1-581-468-5054x23573,maria.murphy@santiagoltdmedicalcenterhospital.com,25,0.336,False
-PROV0078,Edward French,orthopedics,Indianapolis,32,LIC92149,"Wise, Conley and Stephenson Medical Center",4599296222,"edward.french@wise,conleyandstephensonmedicalcenterhospital.com",38,0.031,False
-PROV0079,Jackson Ball,orthopedics,San Diego,18,LIC54020,Bishop-Goodwin Medical Center,838.834.7359x774,jackson.ball@bishop-goodwinmedicalcenterhospital.com,44,0.032,False
-PROV0080,Ruth Solis,oncology,San Diego,25,LIC30028,Salas Inc Medical Center,+1-475-881-8141x2478,ruth.solis@salasincmedicalcenterhospital.com,14,0.166,False
-PROV0081,Thomas Velasquez,orthopedics,Seattle,30,LIC64496,Arias-Perry Medical Center,(485)236-1530x5152,thomas.velasquez@arias-perrymedicalcenterhospital.com,103,0.736,True
-PROV0082,Ronald Horton,neurology,New York,25,LIC72518,Blake Group Medical Center,390.610.4328x986,ronald.horton@blakegroupmedicalcenterhospital.com,95,0.705,True
-PROV0083,Bryan Allen,general_medicine,Columbus,35,LIC81582,"Bauer, Bryant and Rodriguez Medical Center",598.808.9324x6095,"bryan.allen@bauer,bryantandrodriguezmedicalcenterhospital.com",24,0.195,False
-PROV0084,Michael Mills,orthopedics,Columbus,32,LIC13804,Jones-Fox Medical Center,588.306.7065x40515,michael.mills@jones-foxmedicalcenterhospital.com,35,0.29,False
-PROV0085,Nancy Cook,general_medicine,Phoenix,35,LIC13534,Bell LLC Medical Center,+1-227-772-2170x4303,nancy.cook@bellllcmedicalcenterhospital.com,47,0.226,False
-PROV0086,Kaylee Hays,cardiology,Chicago,28,LIC27786,"Kennedy, Johnson and Lucas Medical Center",950-954-1566x7652,"kaylee.hays@kennedy,johnsonandlucasmedicalcenterhospital.com",21,0.02,False
-PROV0087,Robert Adams,general_medicine,Austin,14,LIC69598,Acosta Inc Medical Center,(492)984-5115x44796,robert.adams@acostaincmedicalcenterhospital.com,34,0.111,False
-PROV0088,Andrew Berg,general_medicine,Dallas,6,LIC71644,Mendez-Graham Medical Center,+1-301-565-8202x9702,andrew.berg@mendez-grahammedicalcenterhospital.com,119,0.618,True
-PROV0089,Holly Reyes,orthopedics,San Diego,5,LIC95426,"Johnson, Hernandez and Cole Medical Center",(357)219-2856x543,"holly.reyes@johnson,hernandezandcolemedicalcenterhospital.com",53,0.932,True
-PROV0090,Kathryn Hughes,oncology,New York,10,LIC41266,"Wilson, Hampton and Padilla Medical Center",494.973.1217,"kathryn.hughes@wilson,hamptonandpadillamedicalcenterhospital.com",17,0.226,False
-PROV0091,Rita Ponce DVM,oncology,Charlotte,17,LIC58351,"Reed, Brown and Daniels Medical Center",722-958-3132x3705,"rita.ponce.dvm@reed,brownanddanielsmedicalcenterhospital.com",48,0.385,False
-PROV0092,Kristen Salazar,gastroenterology,Houston,11,LIC50768,Jones Group Medical Center,001-778-466-9125x177,kristen.salazar@jonesgroupmedicalcenterhospital.com,11,0.372,False
-PROV0093,Penny Bowman,neurology,Fort Worth,26,LIC35995,Saunders and Sons Medical Center,(380)618-2422x53584,penny.bowman@saundersandsonsmedicalcenterhospital.com,138,0.891,True
-PROV0094,Tyler Hill,oncology,Houston,20,LIC99687,"Turner, Ferguson and Shaw Medical Center",(299)222-9959,"tyler.hill@turner,fergusonandshawmedicalcenterhospital.com",17,0.318,False
-PROV0095,Travis Wise,neurology,Los Angeles,23,LIC79827,Curtis-Wang Medical Center,(490)978-4473x64710,travis.wise@curtis-wangmedicalcenterhospital.com,33,0.028,False
-PROV0096,John Peterson,gastroenterology,Austin,1,LIC65057,Edwards Ltd Medical Center,556-425-8815x37147,john.peterson@edwardsltdmedicalcenterhospital.com,16,0.173,False
-PROV0097,Dylan Cruz,orthopedics,Charlotte,10,LIC67080,"Barnes, Estes and Barrera Medical Center",995-532-7877x47016,"dylan.cruz@barnes,estesandbarreramedicalcenterhospital.com",43,0.386,False
-PROV0098,Harry Williams,orthopedics,Boston,35,LIC73372,Harper-Cameron Medical Center,+1-274-580-1624x56506,harry.williams@harper-cameronmedicalcenterhospital.com,47,0.107,False
-PROV0099,Dylan Hughes,oncology,Chicago,18,LIC69087,Duran-Ramirez Medical Center,+1-891-221-6558x523,dylan.hughes@duran-ramirezmedicalcenterhospital.com,39,0.228,False
-PROV0100,Chad Cook,gastroenterology,Fort Worth,22,LIC13761,Stone-Hernandez Medical Center,925.695.2694x95888,chad.cook@stone-hernandezmedicalcenterhospital.com,30,0.073,False
+provider_id,provider_name,specialty,city
+PROV0001,Dr. Johnson Hospital,gastroenterology,Phoenix
+PROV0002,Dr. Brown Hospital,oncology,Los Angeles
+PROV0003,Dr. Johnson Center,general_medicine,New York
+PROV0004,Dr. Smith Hospital,oncology,Houston
+PROV0005,Dr. Smith Center,oncology,Dallas
+PROV0006,Dr. Miller Hospital,general_medicine,San Jose
+PROV0007,Dr. Jones Hospital,oncology,San Antonio
+PROV0008,Dr. Garcia Clinic,oncology,Houston
+PROV0009,Dr. Garcia Hospital,cardiology,San Antonio
+PROV0010,Dr. Johnson Clinic,orthopedics,San Jose
+PROV0011,Dr. Jones Hospital,gastroenterology,San Diego
+PROV0012,Dr. Johnson Clinic,cardiology,Dallas
+PROV0013,Dr. Jones Center,neurology,Philadelphia
+PROV0014,Dr. Brown Center,cardiology,New York
+PROV0015,Dr. Brown Clinic,cardiology,Houston
+PROV0016,Dr. Johnson Clinic,orthopedics,San Diego
+PROV0017,Dr. Garcia Hospital,orthopedics,Philadelphia
+PROV0018,Dr. Brown Center,orthopedics,Los Angeles
+PROV0019,Dr. Williams Center,gastroenterology,Houston
+PROV0020,Dr. Williams Clinic,general_medicine,Phoenix
+PROV0021,Dr. Brown Center,orthopedics,New York
+PROV0022,Dr. Brown Hospital,orthopedics,San Antonio
+PROV0023,Dr. Jones Hospital,oncology,San Jose
+PROV0024,Dr. Garcia Hospital,gastroenterology,San Diego
+PROV0025,Dr. Miller Center,general_medicine,Chicago
+PROV0026,Dr. Jones Hospital,oncology,Dallas
+PROV0027,Dr. Jones Center,neurology,San Antonio
+PROV0028,Dr. Miller Clinic,oncology,Chicago
+PROV0029,Dr. Davis Hospital,cardiology,Los Angeles
+PROV0030,Dr. Williams Center,oncology,San Antonio
+PROV0031,Dr. Johnson Clinic,general_medicine,San Jose
+PROV0032,Dr. Davis Center,orthopedics,Dallas
+PROV0033,Dr. Smith Center,gastroenterology,Los Angeles
+PROV0034,Dr. Jones Center,orthopedics,Los Angeles
+PROV0035,Dr. Jones Clinic,oncology,San Diego
+PROV0036,Dr. Smith Center,gastroenterology,Phoenix
+PROV0037,Dr. Williams Center,cardiology,Phoenix
+PROV0038,Dr. Brown Hospital,orthopedics,Chicago
+PROV0039,Dr. Smith Center,orthopedics,San Diego
+PROV0040,Dr. Smith Hospital,orthopedics,Phoenix
+PROV0041,Dr. Brown Hospital,oncology,San Jose
+PROV0042,Dr. Johnson Hospital,gastroenterology,San Diego
+PROV0043,Dr. Johnson Center,oncology,Chicago
+PROV0044,Dr. Davis Center,oncology,Phoenix
+PROV0045,Dr. Miller Hospital,neurology,Houston
+PROV0046,Dr. Jones Clinic,gastroenterology,Philadelphia
+PROV0047,Dr. Davis Center,general_medicine,Los Angeles
+PROV0048,Dr. Brown Hospital,cardiology,Philadelphia
+PROV0049,Dr. Smith Center,neurology,Houston
+PROV0050,Dr. Brown Hospital,cardiology,New York
+PROV0051,Dr. Brown Hospital,cardiology,Philadelphia
+PROV0052,Dr. Johnson Center,oncology,Phoenix
+PROV0053,Dr. Davis Hospital,neurology,Chicago
+PROV0054,Dr. Davis Hospital,general_medicine,San Antonio
+PROV0055,Dr. Brown Hospital,cardiology,San Antonio
+PROV0056,Dr. Garcia Clinic,general_medicine,San Diego
+PROV0057,Dr. Smith Center,gastroenterology,Los Angeles
+PROV0058,Dr. Smith Clinic,gastroenterology,Philadelphia
+PROV0059,Dr. Johnson Hospital,oncology,Houston
+PROV0060,Dr. Davis Hospital,general_medicine,Chicago
+PROV0061,Dr. Jones Clinic,oncology,Los Angeles
+PROV0062,Dr. Davis Center,cardiology,New York
+PROV0063,Dr. Smith Hospital,oncology,Chicago
+PROV0064,Dr. Miller Clinic,general_medicine,Houston
+PROV0065,Dr. Miller Hospital,oncology,San Antonio
+PROV0066,Dr. Smith Clinic,orthopedics,San Diego
+PROV0067,Dr. Jones Clinic,gastroenterology,Dallas
+PROV0068,Dr. Davis Hospital,oncology,Phoenix
+PROV0069,Dr. Brown Hospital,neurology,Dallas
+PROV0070,Dr. Smith Center,orthopedics,New York
+PROV0071,Dr. Smith Center,general_medicine,Dallas
+PROV0072,Dr. Williams Hospital,neurology,Los Angeles
+PROV0073,Dr. Williams Hospital,neurology,Los Angeles
+PROV0074,Dr. Brown Clinic,cardiology,San Jose
+PROV0075,Dr. Brown Center,neurology,New York
+PROV0076,Dr. Johnson Clinic,gastroenterology,San Jose
+PROV0077,Dr. Garcia Clinic,oncology,Philadelphia
+PROV0078,Dr. Brown Clinic,general_medicine,Chicago
+PROV0079,Dr. Jones Clinic,orthopedics,Los Angeles
+PROV0080,Dr. Smith Clinic,neurology,San Jose
+PROV0081,Dr. Johnson Hospital,neurology,Houston
+PROV0082,Dr. Jones Hospital,orthopedics,Los Angeles
+PROV0083,Dr. Brown Clinic,orthopedics,Chicago
+PROV0084,Dr. Davis Center,gastroenterology,Phoenix
+PROV0085,Dr. Smith Center,neurology,Phoenix
+PROV0086,Dr. Johnson Hospital,orthopedics,Los Angeles
+PROV0087,Dr. Johnson Center,neurology,Chicago
+PROV0088,Dr. Jones Clinic,neurology,Houston
+PROV0089,Dr. Garcia Hospital,gastroenterology,Phoenix
+PROV0090,Dr. Davis Clinic,cardiology,Los Angeles
+PROV0091,Dr. Miller Clinic,cardiology,New York
+PROV0092,Dr. Garcia Hospital,gastroenterology,Phoenix
+PROV0093,Dr. Williams Center,general_medicine,Dallas
+PROV0094,Dr. Miller Center,cardiology,Los Angeles
+PROV0095,Dr. Johnson Center,oncology,Dallas
+PROV0096,Dr. Smith Clinic,neurology,Dallas
+PROV0097,Dr. Williams Clinic,oncology,New York
+PROV0098,Dr. Jones Clinic,cardiology,Philadelphia
+PROV0099,Dr. Brown Center,oncology,Los Angeles
+PROV0100,Dr. Garcia Center,general_medicine,San Jose
