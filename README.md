@@ -53,7 +53,7 @@ Unlike standard detectors, FraudGuard understands *context*. It allows investiga
 | **🕵️‍♂️ Hybrid Detection** | Dual-layer analysis using rule-based algorithms and ML models (Isolation Forest/Random Forest). |
 | **💬 AI Investigator** | Chat with your data! Ask questions like *"Show me suspicious cardiology claims"* using **Google Gemini**. |
 | **🧠 Semantic Search** | RAG-powered search to find fraud patterns by meaning, not just keywords (e.g., *"upcoding patterns"*). |
-| **📊 Smart Dashboard** | Real-time interactive analytics with **Plotly** and **Streamlit** for instant visual insights. |
+| **📊 Interactive Analytics** | **Dynamic, data-driven** dashboards that visualize fraud drivers, provider risk distribution, and temporal trends in real-time. |
 | **🔄 Auto-ETL** | Seamless pipeline to process raw `claims.csv` & `providers.csv` into analysis-ready datasets. |
 
 ---
@@ -119,9 +119,12 @@ Unlike standard detectors, FraudGuard understands *context*. It allows investiga
 ### 1. 🔑 Authentication
 Enter your **Google Gemini API Key** in the sidebar. This unlocks the AI Chat and Semantic Search capabilities.
 
-### 2. 📊 Dashboard Analysis
-- **Top Metrics**: View total claims, fraud rates, and financial impact at a glance.
-- **Charts**: Interactive graphs showing fraud distribution by specialty and risk score.
+### 2. 📊 Dashboard & Advanced Analytics
+- **Live Metrics**: Monitor total claims volume, current fraud rates, and financial exposure in real-time.
+- **Dynamic Capabilities**:
+    - **Fraud Drivers**: Breakdown of *why* claims are flagged (e.g., "Duplicate Billing", "Upcoding").
+    - **Risk Segmentation**: interactive histogram showing the distribution of provider risk scores.
+    - **Trend Analysis**: Time-series visualization tracking fraud velocity and claim volume over time.
 
 ### 3. 💬 AI Interaction
 - Go to the **AI Chat** tab.
