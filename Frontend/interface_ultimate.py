@@ -11,9 +11,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 backend_path = os.path.join(os.path.dirname(__file__), '..', 'Backend')
 sys.path.insert(0, backend_path)
 
-# Try to import RAG system
+# Try to import RAG system and ETL pipeline
 try:
     from rag_system import FraudRAG
+    from etl_pipeline import run_etl_pipeline
     RAG_AVAILABLE = True
 except ImportError:
     RAG_AVAILABLE = False
@@ -272,6 +273,57 @@ if RAG_AVAILABLE:
 else:
     use_rag = False
     st.sidebar.warning("⚠️ RAG unavailable. Install: `pip install sentence-transformers faiss-cpu`")
+
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 📤 Data Management")
+uploaded_claims = st.sidebar.file_uploader("Upload Claims (CSV)", type="csv")
+uploaded_providers = st.sidebar.file_uploader("Upload Providers (CSV)", type="csv")
+
+if st.sidebar.button("🚀 Process New Data"):
+    if uploaded_claims:
+        with st.spinner("Processing new data..."):
+            try:
+                # Save uploaded files temporarily
+                base_dir = os.path.dirname(os.path.abspath(__file__))
+                backend_dir = os.path.join(base_dir, '..', 'Backend')
+                claims_path = os.path.join(backend_dir, 'claims.csv')
+                providers_path = os.path.join(backend_dir, 'providers.csv')
+                
+                with open(claims_path, "wb") as f:
+                    f.write(uploaded_claims.getbuffer())
+                
+                if uploaded_providers:
+                    with open(providers_path, "wb") as f:
+                        f.write(uploaded_providers.getbuffer())
+                
+                # Run ETL
+                st.sidebar.info("Running ETL pipeline...")
+                
+                # Capture stdout to show progress
+                import io
+                from contextlib import redirect_stdout
+                f = io.StringIO()
+                with redirect_stdout(f):
+                    run_etl_pipeline(claims_path, providers_path)
+                
+                st.sidebar.success("✅ ETL Completed!")
+                
+                # Clear RAG index to force rebuild
+                rag_index_path = os.path.join(backend_dir, 'rag_index')
+                if os.path.exists(rag_index_path):
+                    import shutil
+                    shutil.rmtree(rag_index_path)
+                    st.sidebar.info("🗑️ Cleared old RAG index")
+                
+                # Clear cache and rerun
+                st.cache_data.clear()
+                st.cache_resource.clear()
+                st.rerun()
+                
+            except Exception as e:
+                st.sidebar.error(f"Error: {e}")
+    else:
+        st.sidebar.warning("Please upload a claims file first.")
 
 st.sidebar.markdown("---")
 

@@ -231,15 +231,17 @@ def save_processed_data(df, output_path='processed_claims_etl.csv'):
         print(f"  Combined Fraud Cases: {combined_fraud}")
         print(f"  Combined Fraud Rate: {(combined_fraud / len(df) * 100):.2f}%")
 
-def run_etl_pipeline():
+def run_etl_pipeline(claims_path='claims.csv', providers_path='providers.csv'):
     """Main ETL pipeline execution"""
     print("=" * 60)
     print("🚀 Starting ETL Pipeline for Fraud Detection")
+    print(f"📂 Claims: {claims_path}")
+    print(f"📂 Providers: {providers_path}")
     print("=" * 60)
     
     try:
         # Step 1: Load raw data
-        claims_df, providers_df = load_raw_data()
+        claims_df, providers_df = load_raw_data(claims_path, providers_path)
         
         # Step 2: Clean data
         claims_df = clean_data(claims_df)
