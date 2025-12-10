@@ -1,0 +1,14 @@
+streamlit
+pandas
+faker
+langchain
+langchain-experimental
+langchain-openai
+langchain-google-genai
+tabulate
+plotly
+openpyxl
+scikit-learn
+sentence-transformers
+faiss-cpu
+numpy
