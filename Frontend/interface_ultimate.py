@@ -35,229 +35,150 @@ st.markdown(
 """
 <style>
 :root {
-    --bg-main: #0B1220;
-    --bg-card: #111827;
-    --bg-card-hover: #1F2937;
-    --border-subtle: #1F2937;
-    --border-accent: #374151;
-    --text-primary: #F3F4F6;
-    --text-secondary: #9CA3AF;
-    --text-muted: #6B7280;
-    --accent-primary: #38BDF8;
-    --accent-success: #22C55E;
-    --accent-warning: #F59E0B;
-    --accent-danger: #EF4444;
-    --accent-purple: #A78BFA;
+    --bg-main:#060b16;
+    --bg-card:rgba(17,24,39,0.55);
+    --glass-bg:rgba(23,32,50,0.35);
+    --glass-border:rgba(255,255,255,0.1);
+    --neon-blue:#3abdf8;
+    --neon-purple:#9b82ff;
+    --neon-pink:#ff4fa3;
+    --text-primary:#f8fafc;
+    --text-secondary:#a1a5b3;
 }
 
 .stApp {
-    background: linear-gradient(160deg, #070B14 0%, #0B1220 45%, #070B14 100%);
+    background: radial-gradient(circle at 30% 10%, #0c1221 0%, #060b16 50%, #04070f 100%);
     color: var(--text-primary);
 }
 
+/* ===========================
+     HERO SECTION UPGRADE
+   =========================== */
 .hero {
-    background: linear-gradient(135deg, #0F172A 0%, #020617 100%);
-    border: 1px solid var(--border-subtle);
-    border-radius: 18px;
-    padding: 24px 30px;
-    margin-bottom: 24px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    padding:30px 36px;
+    border-radius:24px;
+    background: linear-gradient(140deg, rgba(14,22,38,0.85), rgba(6,12,24,0.85));
+    border:1px solid var(--glass-border);
+    box-shadow:0 0 40px rgba(58,189,248,0.15);
+    backdrop-filter: blur(12px);
 }
 
 .hero-title {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--text-primary);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 8px;
+    font-size:36px;
+    font-weight:800;
+    letter-spacing:0.5px;
 }
 
 .hero-title span {
-    background: linear-gradient(135deg, #38BDF8 0%, #818CF8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: linear-gradient(135deg, var(--neon-blue), var(--neon-purple));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
 .hero-badge {
-    background: rgba(34,197,94,0.15);
-    color: var(--accent-success);
-    border: 1px solid rgba(34,197,94,0.5);
-    padding: 6px 14px;
-    font-size: 13px;
-    border-radius: 999px;
-    font-weight: 600;
-    letter-spacing: 0.3px;
+    padding:6px 16px;
+    font-size:14px;
+    border-radius:999px;
+    background:rgba(34,197,94,0.2);
+    border:1px solid rgba(34,197,94,0.5);
 }
 
 .rag-badge {
-    background: rgba(167,139,250,0.15);
-    color: var(--accent-purple);
-    border: 1px solid rgba(167,139,250,0.5);
-    padding: 6px 14px;
-    font-size: 13px;
-    border-radius: 999px;
-    font-weight: 600;
+    background:rgba(156,110,255,0.18);
+    border:1px solid rgba(156,110,255,0.45);
 }
 
-.hero-sub {
-    color: var(--text-secondary);
-    margin-top: 8px;
-    font-size: 15px;
-    line-height: 1.6;
-}
-
-.hero-sub code {
-    background: rgba(56, 189, 248, 0.1);
-    color: var(--accent-primary);
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 14px;
-    border: 1px solid rgba(56, 189, 248, 0.2);
-}
-
+/* ===========================
+    METRIC CARDS (GLOW)
+   =========================== */
 .metric-card {
-    background: linear-gradient(135deg, #111827 0%, #0F172A 100%);
-    border: 1px solid var(--border-subtle);
-    border-radius: 14px;
-    padding: 20px;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: var(--glass-bg);
+    border:1px solid var(--glass-border);
+    border-radius:18px;
+    padding:22px;
+    transition:0.28s ease;
+    backdrop-filter: blur(14px);
+    box-shadow:0 0 15px rgba(0,0,0,0.35);
 }
 
 .metric-card:hover {
-    border-color: var(--border-accent);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-6px);
+    box-shadow:0 0 22px rgba(58,189,248,0.35), 
+               0 0 18px rgba(155,130,255,0.25);
+    border-color: rgba(155,130,255,0.4);
 }
 
-.metric-label {
-    font-size: 13px;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    font-weight: 600;
-    margin-bottom: 8px;
-}
-
-.metric-value {
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 4px;
-}
-
-.metric-delta {
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.metric-delta.positive {
-    color: var(--accent-success);
-}
-
-.metric-delta.negative {
-    color: var(--accent-danger);
-}
-
+/* ===========================
+     TABS (pill buttons)
+   =========================== */
 .stTabs [data-baseweb="tab-list"] {
-    gap: 8px;
-    background: rgba(17, 24, 39, 0.5);
-    padding: 6px;
-    border-radius: 12px;
+    background:rgba(255,255,255,0.06);
+    padding:8px;
+    border-radius:14px;
 }
 
 .stTabs [data-baseweb="tab"] {
-    background: transparent;
-    border-radius: 8px;
-    color: var(--text-secondary);
-    font-weight: 600;
-    padding: 10px 20px;
-    transition: all 0.2s ease;
+    padding:12px 22px;
+    border-radius:10px;
+    font-weight:600;
+    color:var(--text-secondary);
+    transition:0.2s;
 }
 
 .stTabs [data-baseweb="tab"]:hover {
-    background: rgba(56, 189, 248, 0.1);
-    color: var(--accent-primary);
+    background:rgba(58,189,248,0.12);
+    color:var(--neon-blue);
 }
 
 .stTabs [aria-selected="true"] {
-    background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(129, 140, 248, 0.2));
-    color: var(--accent-primary);
-    border: 1px solid rgba(56, 189, 248, 0.3);
+    background:linear-gradient(135deg, rgba(58,189,248,0.22), rgba(155,130,255,0.22));
+    border:1px solid rgba(58,189,248,0.35);
+    color:var(--neon-blue) !important;
 }
 
-.stChatMessage {
-    background: var(--bg-card);
-    border: 1px solid var(--border-subtle);
-    border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 12px;
-}
-
+/* ===========================
+     BUTTONS (neon glow)
+   =========================== */
 .stButton > button {
-    background: linear-gradient(135deg, #38BDF8 0%, #818CF8 100%);
-    color: white !important;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 24px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(56, 189, 248, 0.3);
-}
-
-.stButton > button p {
-    color: white !important;
+    background: linear-gradient(135deg, var(--neon-blue), var(--neon-purple));
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:12px 26px;
+    font-weight:700;
+    box-shadow:0 4px 12px rgba(58,189,248,0.4);
+    transition:0.3s;
 }
 
 .stButton > button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(56, 189, 248, 0.4);
+    transform: translateY(-3px) scale(1.03);
+    box-shadow:0 0 25px rgba(58,189,248,0.55),
+               0 0 25px rgba(155,130,255,0.45);
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+/* ===========================
+   CHAT / TABLE / GENERAL
+   =========================== */
+.stChatMessage {
+    background: var(--bg-card);
+    border:1px solid var(--glass-border);
+    border-radius:16px;
+    padding:18px;
+    backdrop-filter:blur(10px);
 }
 
-::-webkit-scrollbar-track {
-    background: var(--bg-main);
-}
-
-::-webkit-scrollbar-thumb {
-    background: var(--border-accent);
-    border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: var(--accent-primary);
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.metric-card, .stChatMessage {
-    animation: fadeIn 0.3s ease-out;
-}
-
-/* Force light text for chat messages and spinners */
-.stChatMessage p, .stChatMessage div {
-    color: var(--text-primary) !important;
-}
-
-div[data-testid="stSpinner"] > div > div {
-    color: var(--text-primary) !important;
-}
-
-/* General markdown text fix */
 .stMarkdown p {
     color: var(--text-primary);
 }
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(var(--neon-blue), var(--neon-purple));
+    border-radius:6px;
+}
+
 </style>
+
 """, unsafe_allow_html=True)
 
 # -----------------------------
