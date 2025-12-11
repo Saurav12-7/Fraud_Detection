@@ -80,17 +80,17 @@ Unlike standard detectors, FraudGuard understands *context*. It allows investiga
 The application features a modern **Neon/Glassmorphism** design for an immersive experience.
 
 ### Main Dashboard
-![Main Dashboard](assets/Screenshot%202025-12-11%20113549.png)
+![Main Dashboard](assets/dashboard_hero.png)
 
 ### 📸 Feature Gallery
 
 | **AI Chat** | **Advanced Analytics** |
 |:---:|:---:|
-| ![AI Chat](assets/Screenshot%202025-12-11%20113655.png) | ![Analytics](assets/Screenshot%202025-12-11%20113722.png) |
+| ![AI Chat](assets/feature_chat.png) | ![Analytics](assets/feature_analytics.png) |
 
 | **Risk Segmentation** | **Fraud Drivers** |
 |:---:|:---:|
-| ![Risk](assets/Screenshot%202025-12-11%20113756.png) | ![Drivers](assets/Screenshot%202025-12-11%20113826.png) |
+| ![Risk](assets/feature_risk.png) | ![Drivers](assets/feature_drivers.png) |
 
 ---
 
