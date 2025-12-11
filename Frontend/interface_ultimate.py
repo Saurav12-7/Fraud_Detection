@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+# Reload trigger
 import os
 import sys
 import plotly.express as px
@@ -198,13 +199,17 @@ st.markdown(
 
 .stButton > button {
     background: linear-gradient(135deg, #38BDF8 0%, #818CF8 100%);
-    color: white;
+    color: white !important;
     border: none;
     border-radius: 8px;
     padding: 10px 24px;
     font-weight: 600;
     transition: all 0.3s ease;
     box-shadow: 0 2px 4px rgba(56, 189, 248, 0.3);
+}
+
+.stButton > button p {
+    color: white !important;
 }
 
 .stButton > button:hover {
@@ -238,6 +243,20 @@ st.markdown(
 .metric-card, .stChatMessage {
     animation: fadeIn 0.3s ease-out;
 }
+
+/* Force light text for chat messages and spinners */
+.stChatMessage p, .stChatMessage div {
+    color: var(--text-primary) !important;
+}
+
+div[data-testid="stSpinner"] > div > div {
+    color: var(--text-primary) !important;
+}
+
+/* General markdown text fix */
+.stMarkdown p {
+    color: var(--text-primary);
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -263,6 +282,8 @@ st.markdown(f"""
 # -----------------------------
 st.sidebar.header("⚙️ Configuration")
 api_key = st.sidebar.text_input("🔑 Google Gemini API Key", type="password", help="Enter your Gemini API key")
+if api_key:
+    st.sidebar.caption(f"✅ Key active (ends in ...{api_key[-4:]})")
 
 # RAG Settings
 if RAG_AVAILABLE:
@@ -499,12 +520,24 @@ with tabs[1]:
     st.markdown("#### 💬 AI Fraud Investigator")
     st.markdown("""
     Ask natural language questions about the claims data.
-    
-    **Example queries:**
-    - *"Show me the top 10 suspicious claims"*
-    - *"What's the fraud rate by specialty?"*
-    - *"List providers with highest fraud risk"*
     """)
+    
+    # Example Query Buttons
+    col_q1, col_q2, col_q3 = st.columns(3)
+    query_to_run = None
+    
+    with col_q1:
+        if st.button("🔍 Top 10 Suspicious", use_container_width=True):
+            query_to_run = "Show me the top 10 suspicious claims"
+    
+    with col_q2:
+        if st.button("📊 Fraud by Specialty", use_container_width=True):
+            query_to_run = "What's the fraud rate by specialty?"
+            
+    with col_q3:
+        if st.button("🏥 High Risk Providers", use_container_width=True):
+            query_to_run = "List providers with highest fraud risk"
+
     
     if "messages" not in st.session_state:
         st.session_state.messages = []
@@ -518,7 +551,7 @@ with tabs[1]:
     if api_key:
         try:
             llm = ChatGoogleGenerativeAI(
-                model="gemini-2.0-flash-exp",
+                model="gemini-2.0-flash",
                 google_api_key=api_key,
                 temperature=0
             )
@@ -531,6 +564,9 @@ with tabs[1]:
             )
             
             query = st.chat_input("Ask a question about the claims data...")
+            
+            if query_to_run:
+                query = query_to_run
             
             if query:
                 st.session_state.messages.append({"role": "user", "content": query})
@@ -559,7 +595,12 @@ with tabs[1]:
                             st.session_state.messages.append(msg_data)
                         
                         except Exception as e:
-                            st.error(f"❌ Error: {str(e)}")
+                            error_msg = str(e)
+                            if "429" in error_msg or "quota" in error_msg.lower():
+                                st.warning("🚦 **API Rate Limit Exceeded**")
+                                st.info("You're using the free tier of the Gemini API, which has request limits. Please wait a minute before trying again.")
+                            else:
+                                st.error(f"❌ Error: {error_msg}")
         
         except Exception as e:
             st.error(f"❌ Connection Error: {str(e)}")
