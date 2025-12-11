@@ -75,13 +75,22 @@ Unlike standard detectors, FraudGuard understands *context*. It allows investiga
 
 ---
 
-## 📸 Interface
+## 🖥️ Interface & Dashboard
 
-> Experience a modern, dark-themed UI designed for clarity and speed.
+The application features a modern **Neon/Glassmorphism** design for an immersive experience.
 
-| **Advanced Analytics** | **Claims Timeline** |
-| :---: | :---: |
-| ![Analytics Dashboard](assets/dashboard_analytics.png) | ![Claims Over Time](assets/dashboard_claims.png) |
+### Main Dashboard
+![Main Dashboard](assets/Screenshot%202025-12-11%20113549.png)
+
+### 📸 Feature Gallery
+
+| **AI Chat** | **Advanced Analytics** |
+|:---:|:---:|
+| ![AI Chat](assets/Screenshot%202025-12-11%20113655.png) | ![Analytics](assets/Screenshot%202025-12-11%20113722.png) |
+
+| **Risk Segmentation** | **Fraud Drivers** |
+|:---:|:---:|
+| ![Risk](assets/Screenshot%202025-12-11%20113756.png) | ![Drivers](assets/Screenshot%202025-12-11%20113826.png) |
 
 ---
 
